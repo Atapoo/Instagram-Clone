@@ -8,10 +8,13 @@ html, body {
 .logo-app{
     width: 200px;
     margin: 10px 10px;
-    margin-bottom: 50px;
-    border-bottom: 1px solid black;
     padding-bottom: 10px;
     
+}
+
+header{
+    border-bottom: 1px solid #C3C3C3 ;
+    margin-bottom: 50px;
 }
 
 .header img{
@@ -56,6 +59,7 @@ html, body {
 
 .icon img:hover{
      width: 70px;
+     opacity: 0.5;
      
 }
 
@@ -68,6 +72,12 @@ h3{
 
 }
 
+h2,
+h3{
+     margin-left: 20px;
+}
+
 span{
     font-weight: 900;
+
 }
